@@ -37,7 +37,7 @@ def set_background(image_path):
 
 
 # Load data
-df = pd.read_csv('cleaned_df.csv')
+df = pd.read_csv('Soccer_Analytics_CMSE/cleaned_df.csv')
 
 skill_columns = [
                                 'finishing', 'dribbling', 'curve', 'crossing', 'heading_accuracy',
