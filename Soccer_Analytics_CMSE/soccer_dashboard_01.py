@@ -715,7 +715,7 @@ if st.session_state.page == 'data_handling':
 
     with tab1:
         st.write('')
-        st.write('Github Repository : https://github.com/sivagugan30/CMSE-830-Foundations-of-Data-Science')
+        st.write('Github Repository : https://github.com/SanjeevDurge/Soccer_Analytics')
     
         st.subheader('1. Data Collection')
         import numpy as np
@@ -1433,5 +1433,5 @@ if st.session_state.page == 'data_handling':
 
 # Footer
 st.sidebar.markdown("---")
-st.sidebar.write("Created by Sivagugan Jayachandran")
+st.sidebar.write("Created by Sanjeev Durge")
 
