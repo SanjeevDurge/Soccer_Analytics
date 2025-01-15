@@ -74,7 +74,7 @@ elif options == "Data Handling":
 
 # Homepage
 if st.session_state.page == 'home':
-    set_background(image_path='garnacho.jpeg')
+    set_background(image_path='Soccer_Analytics_CMSE/garnacho.jpeg')
     st.header("")
     st.markdown('<h1 style="color: white;">Soccer Analytics Dashboard 2024</h1>', unsafe_allow_html=True)
     
@@ -734,11 +734,11 @@ if st.session_state.page == 'data_handling':
         pd.set_option('display.max_columns', None)
     
         #read df 1
-        stats_df = pd.read_csv('stats_df.csv')
+        stats_df = pd.read_csv('Soccer_Analytics_CMSE/stats_df.csv')
     
     
         #read df2 
-        personal_df = pd.read_csv('personal_df.csv')
+        personal_df = pd.read_csv('Soccer_Analytics_CMSE/personal_df.csv')
     
         
         st.write(" Data Source 1 : https://www.kaggle.com/datasets/yorkyong/football-player-statistics ")
@@ -1107,7 +1107,7 @@ if st.session_state.page == 'data_handling':
     
         st.subheader("1. Categorical Feature Selection")
                 # Make a copy of the DataFrame
-        df = pd.read_csv('cleaned_df.csv')
+        df = pd.read_csv('Soccer_Analytics_CMSE/cleaned_df.csv')
         df1 = df.copy()
         
         # Define categorical features
